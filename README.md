@@ -53,7 +53,7 @@ To re-train GPAT,
 ```python3
 python learning/gpat/run.py --mode=train --ratio=0.7 --rand --exp=EXPNAME --cuda=CUDAIND
 ```
-To evaluate with our pretrained GPAT checkpoint, download the [checkpoint](https://drive.google.com/file/d/1tdoUWV39MtJ09_Lk6lSKCBgFa5mGNVHk/view?usp=share_link) to `logs/pretrained/gpat.pth`.
+To evaluate with our pretrained GPAT checkpoint, download the [checkpoint](https://drive.google.com/file/d/1VO6JP2SlAmul6Q4Bmw0SlPwoHt0tZ_el/view?usp=share_link) to `logs/pretrained/gpat.pth`.
 
 ```python3
 python learning/assembler.py --eval --cat=CATEGORY --exp=EXPNAME --cuda=CUDAIND
